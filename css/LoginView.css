@@ -1,0 +1,9 @@
+/* Classe com background noturno */
+body.nighty {
+    background-image: url("../assets/img/night_time1024x768.gif");
+    background-color: #cccccc;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
