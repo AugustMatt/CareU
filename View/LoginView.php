@@ -18,9 +18,10 @@
     <!-- CSS da pagina -->
     <link rel="stylesheet" href="../css/LoginView.css">
 
+
 </head>
 
-<body class="nighty vh-100">
+<body class="nighty-animated vh-100">
 
     <!-- Conteudo principal da pagina -->
     <main class="h-100">
@@ -50,6 +51,10 @@
                                 <span id="password-title" class="input-group-text">Senha</span>
                                 <input name="password-input" class="form-control" type="password" placeholder="Senha" aria-label="Senha" aria-describedby="password-title">
                             </div>
+                            <div class="form-check d-flex justify-content-start align-items-center mb-2">
+                                <input class="form-check-input" type="checkbox" id="remember-me-checkbox">
+                                <label class="form-check-label mx-1" for="remember-me-checkbox">Lembra-me</label>
+                            </div>
                             <button type="submit" class="btn btn-primary btn-sm">Login</button>
                         </form>
                         <!-- Login Form -->
@@ -57,8 +62,8 @@
                     </div>
 
                     <div class="card-footer">
-                        <div class="form-check form-switch d-flex justify-content-end">
-                            <input class="form-check-input mx-1 " type="checkbox" role="switch" id="bg-animation-check" checked>
+                        <div class="form-check form-switch d-flex justify-content-end align-items-center">
+                            <input class="form-check-input mx-1" type="checkbox" role="switch" id="bg-animation-check" checked>
                             <label class="form-check-label" for="bg-animation-check">Animação de fundo</label>
                         </div>
                     </div>
@@ -76,6 +81,9 @@
 
     </main>
     <!-- Corpo da pagina -->
+
+    <!-- JS da pagina -->
+    <script src="../js/LoginView.js"></script>
 
 </body>
 
