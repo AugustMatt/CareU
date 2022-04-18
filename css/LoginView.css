@@ -1,0 +1,18 @@
+/* Inerte ao body */
+body {
+    background-color: #cccccc;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Classe com background noturno */
+body.nighty {
+    background-image: url("../assets/img/night_time1024x768.jpg");
+}
+
+/* Classe com background noturno animado */
+body.nighty-animated {
+    background-image: url("../assets/img/night_time1024x768.gif");
+}
